@@ -39,5 +39,3 @@ sudo docker pull jenkins/jenkins:lts
 sudo docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts
 sudo docker ps   --->> to check the name
 sudo docker exec vigilant_fermat cat /var/jenkins_home/secrets/initialAdminPassword
-
-For Jenkins I have: dpeykov Di4ipi4i!@#*
